@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.partprime.springjsp.user.mapper.UserMapper">
+	<select id="readUser" parameterType="String" resultType="User">
+	SELECT
+		'part' as username,
+		'$2a$10$fIic9nwveM9t6jFh01Jm8.ohiiINWr9Pndt4u3IIZgJJCuVc75BvW' as password
+		<!-- SELECT 
+			username
+			, password
+		FROM user
+		WHERE id = #{username} -->
+	</select>
+	
+	<select id="readAuthority" parameterType="String" resultType="String">
+		SELECT 'ROLE_USER' as authority
+		<!-- SELECT authority FROM manager WHERE idx = #{userIdx} -->
+	</select>
+</mapper>
