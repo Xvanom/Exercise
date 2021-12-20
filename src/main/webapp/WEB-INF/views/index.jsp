@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
-    
-    
-    hello world
+	pageEncoding="UTF-8"%>
+<!doctype html>
+
+
+hello world

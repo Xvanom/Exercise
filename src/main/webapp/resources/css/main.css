@@ -1,54 +1,147 @@
 body * {
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    font-size: 20px;
-    margin: 0;
-    padding: 0;
-}
-body{
-    max-width: 1920px;
-    max-height: 1080px;
-    border: black solid 1px;
-    margin: 0 auto;
-    overflow: scroll;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 20px;
+	margin: 0;
+	padding: 0;
 }
 
+body {
+	max-width: 1920px;
+	max-height: 1080px;
+	border: black solid 1px;
+	margin: 0 auto;
+	overflow: scroll;
+}
 
 button {
-    cursor: pointer;
+	cursor: pointer;
+}
+
+li {
+	list-style: none;
+}
+
+a{
+    color: #809CFF;
+    text-decoration: none;
 }
 
 #header {
-    display: grid;
-    grid-template-columns: 2fr 7fr 3fr;
+	display: grid;
+	grid-template-columns: 2fr 7fr 3fr;
 }
-
-#header .head_right {
-    text-align: left;
-}
-
-#header .head_center {
-    background-color: black;
+#backcolor{
+	background: linear-gradient(150deg,#FFFFFF 20%,#dde4fd);
+	display: grid;
+	grid-template-columns: 7fr 3fr;
 }
 
 #header .head_left {
-    text-align: right;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#header .head_right {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.left_div {
+	margin-right: 20px;
+}
+
+.alarm_div {
+	position: relative;
+	height: 100px;
+}
+
+.alarm {
+	position: absolute;
+	margin: 0 auto;
+}
+
+.left_img {
+	border-radius: 75px;
+}
+
+#alarm {
+	top: 30px;
+	right: 3px;
+}
+
+#alarm_point {
+	top: 54px;
+	left: -15px;
+	
 }
 
 #main {
-    display: grid;
-    grid-template-columns: 2fr 7fr 3fr;
+	display: grid;
+	grid-template-columns: 2fr 10fr;
 }
 
 #main #contents {
-    min-height: 800px;
-    background-color: #00ffff;
+	min-height: 800px;
 }
 
 #main #sidebar {
-    background-color: #00bfff;
+	background-color: white;
 }
 
-#main_input{
-    width: 100%;
-    height: 100%;
+#main #rightbar{
+	
+}
+
+.re_btn_box{
+    text-align: center;
+}
+
+.reserve_btn{
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+#num_box{
+	float: left;
+    flex-direction: column;
+}
+
+#main_input {
+	width: 100%;
+	height: 100%;
+}
+
+#main_input::-webkit-input-placeholder {
+	background-image:
+		url(https://cdn1.iconfinder.com/data/icons/hawcons/32/698627-icon-111-search-256.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	text-indent: 30px;
+}
+
+#mainlogo {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#main_input {
+	border: none;
+	padding-left: 150px;
+	font-size: 20px;
+	outline: none;
+}
+
+.side_btn {
+	border: none;
+	background-color: white;
+	font-size: 1em;
+	cursor: pointer;
+	margin-top: 20px;
+	margin-left: 40px;
+	margin-bottom: 20px;
 }
