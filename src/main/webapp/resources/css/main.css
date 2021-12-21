@@ -21,17 +21,18 @@ li {
 	list-style: none;
 }
 
-a{
-    color: #809CFF;
-    text-decoration: none;
+a {
+	color: #809CFF;
+	text-decoration: none;
 }
 
 #header {
 	display: grid;
 	grid-template-columns: 2fr 7fr 3fr;
 }
-#backcolor{
-	background: linear-gradient(150deg,#FFFFFF 20%,#dde4fd);
+
+#backcolor {
+	background: linear-gradient(150deg, #FFFFFF 20%, #dde4fd);
 	display: grid;
 	grid-template-columns: 7fr 3fr;
 }
@@ -64,6 +65,9 @@ a{
 .left_img {
 	border-radius: 75px;
 }
+.profile{
+	width: 47px;
+}
 
 #alarm {
 	top: 30px;
@@ -73,7 +77,6 @@ a{
 #alarm_point {
 	top: 54px;
 	left: -15px;
-	
 }
 
 #main {
@@ -89,26 +92,45 @@ a{
 	background-color: white;
 }
 
-#main #rightbar{
-	
+#main #rightbar {
+	margin: 20px;
 }
 
-.re_btn_box{
-    text-align: center;
+.re_btn_box {
+	text-align: center;
 }
 
-.reserve_btn{
-    background-color: white;
-    border-radius: 10px;
-    padding: 20px;
-    margin: 20px;
-    padding-left: 80px;
-    padding-right: 80px;
+.reserve_btn {
+	background-color: white;
+	border: 5px solid #c3d0ff;
+	color: #c3d0ff;
+	border-radius: 20px;
+	margin: 25px;
+	padding: 15px;
+	padding-left: 45px;
+	padding-right: 45px;
 }
 
-#num_box{
+#num_box {
 	float: left;
-    flex-direction: column;
+	flex-direction: column;
+}
+
+.img_box {
+	display: flex;
+	margin-bottom: 20px;
+}
+
+.num {
+	position: relative;
+	height: 39px;
+	width: 37px;
+}
+
+.coment {
+	margin-left: 10px;
+	margin-top: 5px;
+	line-height: 28px;
 }
 
 #main_input {

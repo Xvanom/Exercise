@@ -5,6 +5,6 @@
 	<title>Home</title>
 </head>
 <body>
-hello home
+<a href="/show">coment controller</a>
 </body>
 </html>

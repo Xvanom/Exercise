@@ -37,7 +37,7 @@
 				<img class="left_img" src="resources/img/main/setting.png">
 			</div>
 			<div class="left_div">
-				<img class="left_img" src="resources/img/main/Profile.png">
+				<img class="left_img profile" src="resources/img/main/some_profile.png">
 			</div>
 		</div>
 	</header>
@@ -65,38 +65,34 @@
 		</div>
 		<div id="backcolor">
 			<div id="contents">
-				contents area
 				<tiles:insertAttribute name="content" />
-
 			</div>
 			<div id="rightbar">
 				<div class="reserve">
 					<div class="re_btn_box">
-						<button class="reserve_btn">예약하기</button>
+						<button class="reserve_btn"><b style="font-size: 30px; letter-spacing: 5px;">예약하기</b></button>
 					</div>
 					<div id="num_box">
-						<div class="img_box num1">
-							<img src="resources/img/main/1.png" alt="">
-						</div>
-						<div class="img_box num2">
-							<img src="resources/img/main/2.png" alt="">
-						</div>
-						<div class="img_box num3">
-							<img src="resources/img/main/3.png" alt="">
-						</div>
-						<div class="img_box num4">
-							<img src="resources/img/main/4.png" alt="">
-						</div>
-					</div>
-					<div id="text_box">
-						<p class="coment left">
+						<div class="img_box">
+							<img class="num" src="resources/img/main/1.png" alt="">
+							<p class="coment">
 							내원진료·왕진진료·건강검진<br> 위의 3가지중 원하시는 진료를 선택하여 주세요.
 						</p>
-						<p class="coment left">
+						</div>
+						<div class="img_box">
+							<img class="num" src="resources/img/main/2.png" alt="">
+							<p class="coment">
 							적절한 진료과목을 선택하여 주세요.<br> 검진을 선택한 경우에 원하시는 검진항목을 체크해주세요.
 						</p>
-						<p class="coment left">예약을 원하시는 날짜와 시간을 선택해 주세요.</p>
-						<p class="coment left">본인확인 및 예약결제 후 예약완료 확인 및 현황은 아래에 나타납니다.</p>
+						</div>
+						<div class="img_box">
+							<img class="num" src="resources/img/main/3.png" alt="">
+							<p class="coment">예약을 원하시는 날짜와 시간을 선택해 주세요.</p>
+						</div>
+						<div class="img_box">
+							<img class="num" src="resources/img/main/4.png" alt="">
+							<p class="coment">본인확인 및 예약결제 후 예약완료 확인 및 현황은 아래에 나타납니다.</p>
+						</div>
 					</div>
 				</div>
 			</div>
